@@ -3,7 +3,7 @@
 ## Description
 This is a simple realization of polynomial multiplication with a FFT approach.
 
-<img src="polynomial_multiplication.pbm" alt="polynomial_multiplication.pbm" width="250"/>
+<img src="polynomial_multiplication.pbm" alt="polynomial_multiplication.pbm" width="400"/>
 
 The `fft.fft()` function from the `fft` module takes a poly $p ~ : ~ \deg{p} = n-1$ , a complex number $\omega = e^{\frac{2 \pi i}{n}}$ and return an array of values $p(\omega^j), ~ j \in 0 \dots n-1$.
 
